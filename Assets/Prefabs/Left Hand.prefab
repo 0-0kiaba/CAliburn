@@ -698,6 +698,7 @@ GameObject:
   - component: {fileID: 728624519449885742}
   - component: {fileID: 728624519457395704}
   - component: {fileID: 3505484849063735725}
+  - component: {fileID: 8618907461875491258}
   m_Layer: 0
   m_Name: Left Hand
   m_TagString: Untagged
@@ -752,13 +753,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 728624519449976910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1393cf0d7989de49a7acea24c5ecc54, type: 3}
+  m_Script: {fileID: 11500000, guid: ab4ad437855519d4d96ea57ef99a7ebe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gripInputActionReference: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
   triggerInputActionReference: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
+--- !u!114 &8618907461875491258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728624519449976910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c3cc56a7f50b0548a1f595b6625cdc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PokeAttachPoint: {fileID: 728624519449885716}
 --- !u!1 &728624519449976912
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,7 +3,12 @@ guid: 31d35b8ac5390964abc86e30ad5dc2f8
 SketchUpImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 193185885918685929, guid: 30314a461e477d34ea305202202271e9, type: 3}
   materials:
     materialImportMode: 2
     materialName: 2
@@ -109,5 +114,5 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: a32c2c8a4a0f66363109c0b4e4cd1dd3
+    Hash: 0ed026440e102ff78f8e1d108a2c8684
   fileUnit: 0
